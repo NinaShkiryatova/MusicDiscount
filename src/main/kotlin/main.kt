@@ -8,8 +8,8 @@ const val isAdditionalDiscount: Boolean = true
 const val additionalDiscount: Double = 0.99
 
 fun main() {
-    var actualPurchase: Int = 100_00
-    var previousPurchases: Int = 10_001_00
+    val actualPurchase: Int = 100_00
+    val previousPurchases: Int = 10_001_00
 
     var priceWithDiscount: Int = 0
     when {
